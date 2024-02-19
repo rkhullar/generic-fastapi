@@ -4,10 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-nydev-fastapi-tools = {file = "../../fastapi-tools", extras=["server", "lambda", "mongodb"], editable = true}
 fastapi = "~=0.109.0"
 mangum = "~=0.17.0"
 pymongo = "~=4.6.0"
+nydev-fastapi-tools = {version = "*", extras=["server", "lambda", "mongodb"]}
 
 [dev-packages]
 isort = "~=5.13.0"
