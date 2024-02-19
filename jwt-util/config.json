@@ -1,8 +1,0 @@
-{
-  "package": "jwt_util",
-  "extension": "_jwt_util",
-  "library": "jwtutil",
-  "signatures": [
-    "char* BuildSignature();"
-  ]
-}
